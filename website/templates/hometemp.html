@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroVision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hometemp.css') }}">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <!--  <h2>AgroVision</h2> -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+
+    <div class="header-container">
+        <div class="header">
+            <h1><b>Detect Plant Leaf Disease with Ease</b></h1>
+
+            <p>Revolutionary technology for healthier crops</p>
+            <a href="{{ url_for('upload_file') }}" class="button">Get Started Now</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

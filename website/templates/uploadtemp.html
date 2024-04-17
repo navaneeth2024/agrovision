@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Leaf Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/uploadtemp.css') }}">
+
+</head>
+<body> 
+    <div class="container">
+        <h1>AGROVISION</h1>
+        <P>Spot and Stop Plant Diseases Easily</P>
+        <div id="uploaded-image-container">
+            <img id="uploaded-image" src="../static/images/upload2.jpg" alt="Default Image">
+            <div id="file-name" class="file-name">File Name: Default Image</div>
+        </div>
+        <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+            <label for="image" class="upload-btn">Upload Image</label>
+            <input class="inputimg" type="file" name="file" id="image" accept="image/*" required  onchange="previewImage(event)">
+            <button class="detect-btn" type="submit">Detect</button> 
+        </form>
+    </div>
+ 
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function(){
+                var output = document.getElementById('uploaded-image-container');
+                var img = document.createElement('img');
+                img.src = reader.result;
+                img.id = 'uploaded-image';
+                output.innerHTML = '';
+                output.appendChild(img);
+                var fileName = document.createElement('div');
+                fileName.textContent = 'File Name: ' + event.target.files[0].name;
+                fileName.className = 'file-name';
+                output.appendChild(fileName);
+                document.querySelector('.upload-btn').textContent = 'Change Image';
+            }
+            reader.readAsDataURL(event.target.files[0]);
+            
+        }
+    </script>
+</body>
+</html>

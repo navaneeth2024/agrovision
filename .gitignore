@@ -1,11 +1,11 @@
 dataset/
 dermoscan/
 githubprojects/
-imagestest/
+images test/
 models/
 New Plant Diseases Dataset(Augmented)/
 otherfiles/
-plantvillagedataset/
+plantvillage dataset/
 sms/
 validation/
 webapp/
@@ -13,6 +13,6 @@ website/model/xception_plant_disease_detection(25-02-2024).h5
 website_new/
 webtemp/
 frontend.zip
-NewPlantDiseasesDataset.zip
+New Plant Diseases Dataset.zip
 website_new.zip
 website.zip

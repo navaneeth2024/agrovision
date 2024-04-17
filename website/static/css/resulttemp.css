@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/hbg444.jpg");
+    /* Change background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    color: #fff;
+    max-width: 800px;
+    padding: 100px 50px;
+    background-color: rgba(224, 225, 222, 0.692);
+    /* Make container transparent */
+    border-radius: 12px;
+    /* Increase the radius */
+    box-shadow: 0 0 20px rgba(37, 36, 36, 0.5);
+    overflow: hidden;
+    /* Hide content that exceeds the circular shape */
+    animation: jumpAnimation 0.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(50px);
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    /* Text on right side */
+    align-items: center;
+    /* Center vertically */
+}
+
+.info{
+    margin-left: 60px;
+}
+
+@keyframes jumpAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    color: #1b481c;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #61a963;
+    font-size: 22px;
+    margin-bottom: 10px;
+    /* Adjust margin */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    /* Add margin to the right */
+}
+
+.result-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 10px;
+    /* Adjust margin */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.know-more-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.know-more-btn:hover {
+    background-color: #45a049;
+}

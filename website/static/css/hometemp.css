@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: #fbf9ef;
+    font-family: Arial, sans-serif;
+    background-image: url("../images/bgi1.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar {
+    background-color: #eeefe7;
+    overflow: hidden;
+    background-image: url("../images/bgi1.jpg");
+    /* Same background image as body */
+    background-size: cover;
+}
+
+.navbar h2 {
+    float: left;
+    margin: 0;
+    font-weight: lighter;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding-left: 640px;
+}
+
+.navbar ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header-container {
+    position: relative;
+    text-align: right;
+    /* Align the header to the right */
+    padding: 200px 20px;
+    /* Adjust padding to add space from the right side */
+    box-sizing: border-box;
+    /* Ensure padding is included in the width */
+}
+
+.header {
+    animation: jump 0.5s ease;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #777;
+}
+
+.button {
+    display: inline-block;
+    background-color: #43611e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(10px);
+        /* Initial position */
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Jumping position */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Return to original position */
+    }
+}

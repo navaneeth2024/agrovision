@@ -1,0 +1,190 @@
+{
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": [
+        {
+            "title": "Remedy 1 : Chlorothalonil Spray",
+            "description": "Mix chlorothalonil fungicide according to the manufacturer's instructions (typically 2-4 tablespoons per gallon of water). Ensure thorough mixing.Spray the solution on the corn plants, covering both sides of the leaves and stems.Reapply every 7-10 days or as recommended by the manufacturer."
+        },
+        {
+            "title": "Remedy 2 : Azoxystrobin Spray",
+            "description": "Mix azoxystrobin fungicide according to the manufacturer's instructions (typically 1-2 tablespoons per gallon of water).Ensure thorough mixing.Spray the solution on the corn plants, covering both sides of the leaves and stems.Reapply every 10-14 days or as recommended by the manufacturer. "
+        },
+        {
+            "title": "Remedy 3 : Mancozeb Spray",
+            "description": "Mix mancozeb fungicide according to the manufacturer's instructions (usually about 2-4 tablespoons per gallon of water).Ensure thorough mixing.Apply the solution to the corn plants, ensuring complete coverage of the foliage.Reapply every 7-14 days or as recommended by the manufacturer."
+        }
+    ],
+    "Corn_(maize)___Common_rust_": [
+        {
+            "title": "Remedy 1 : Triadimefon Spray",
+            "description": "Mix triadimefon fungicide according to the manufacturer's instructions (typically around 1-2 tablespoons per gallon of water).Ensure thorough mixing.Spray the solution on the corn plants, covering both sides of the leaves and stems.Reapply every 7-14 days or as recommended by the manufacturer."
+        },
+        {
+            "title": "Remedy 2 : Chlorothalonil Spray",
+            "description": "Mix chlorothalonil fungicide according to the manufacturer's instructions (typically 2-4 tablespoons per gallon of water). Ensure thorough mixing.Spray the solution on the corn plants, covering both sides of the leaves and stems.Reapply every 7-10 days or as recommended by the manufacturer."
+        },
+        {
+            "title": "Remedy 3 : Mancozeb Spray",
+            "description": "Mix mancozeb fungicide according to the manufacturer's instructions (usually about 2-4 tablespoons per gallon of water).Ensure thorough mixing.Apply the solution to the corn plants, ensuring complete coverage of the foliage.Reapply every 7-14 days or as recommended by the manufacturer."
+        }
+    ],
+    "Corn_(maize)___Northern_Leaf_Blight": [
+        {
+            "title": "Remedy 1 : Copper Fungicide Spray",
+            "description": "Chemical: Copper-based fungicide (e.g., copper sulfate)Measurement: Dilute according to the product label instructions, usually around 2-4 tablespoons of copper fungicide per gallon of water.Application: Spray the solution on both sides of the leaves, covering them completely. Apply every 7-10 days or as needed."
+        },
+        {
+            "title": "Remedy 2 : Mancozeb Spray",
+            "description": "Mix mancozeb fungicide according to the manufacturer's instructions (usually about 2-4 tablespoons per gallon of water).Ensure thorough mixing.Apply the solution to the corn plants, ensuring complete coverage of the foliage.Reapply every 7-14 days or as recommended by the manufacturer."
+        },
+        {
+            "title": "Remedy 3 : Chlorothalonil Spray",
+            "description": "   - Chemical: Chlorothalonil fungicideMeasurement: Mix 2-4 fluid ounces of chlorothalonil per gallon of water.Application: Spray the solution on affected foliage, ensuring complete coverage. Apply at the first sign of disease and repeat every 7-10 days if needed"
+        }
+    ],
+    "Grape___Black_rot": [
+        {
+            "title": "Remedy 1 : Sulfur dust or spray",
+            "description": "Use elemental sulfur dust or a sulfur-based spray at a rate of 2 to 4 tablespoons per gallon of water. Apply the sulfur solution to the grapevines, covering both sides of the leaves and the grape clusters."
+        },
+        {
+            "title": "Remedy 2 : Mancozeb fungicide",
+            "description": "Dilute 2 to 4 tablespoons of mancozeb fungicide per gallon of water.Apply the solution as a foliar spray, covering the entire grapevine canopy and focusing on the areas affected by black rot."
+        },
+        {
+            "title": "Remedy 3 : Captan fungicide ",
+            "description": "Mix 2 to 4 tablespoons of captan fungicide per gallon of water.Apply the captan solution to the grapevines, ensuring thorough coverage of the foliage and clusters, particularly during periods of high humidity and rainfall."
+        }
+    ],
+    "Grape___Esca_(Black_Measles)": [
+        {
+            "title": "Remedy 1 : Potassium Bicarbonate",
+            "description": "Potassium bicarbonate is a natural fungicide that can help suppress fungal diseases like esca. Mix 2-4 tablespoons of potassium bicarbonate per gallon of water. Spray the solution onto the grapevines, focusing on the affected areas. Apply every 7-10 days during the growing season, especially during periods of high humidity or rain."
+        },
+        {
+            "title": "Remedy 2 : Biofungicides",
+            "description": "Biofungicides containing beneficial microorganisms, such as Bacillus subtilis or Trichoderma spp., can help suppress esca and other fungal diseases. Follow the manufacturer's instructions for application rates and timings. Typically, these biofungicides are applied as foliar sprays or soil drenches at regular intervals throughout the growing season."
+        },
+        {
+            "title": "Remedy 3 : Sulfur Dust",
+            "description": "Sulfur is another effective fungicide for controlling esca. Apply sulfur dust to grapevines when the foliage is dry, preferably early in the morning or late in the afternoon to minimize the risk of leaf burn. Use about 2-4 pounds of sulfur dust per acre, depending on the severity of the infection. Repeat application every 7-14 days as needed. "
+        }
+    ],
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": [
+        {
+            "title": "Remedy 1 : Copper Fungicide Spray",
+            "description": "Copper fungicides are effective against various fungal diseases, including leaf blight. Mix copper fungicide according to the manufacturer's instructions, usually about 1-2 tablespoons per gallon of water. Apply as a foliar spray, covering all parts of the affected grapevines thoroughly. Repeat every 7-10 days or as directed on the fungicide label. "
+        },
+        {
+            "title": "Remedy 2 : Propiconazole Fungicide",
+            "description": "Propiconazole is a systemic fungicide that can be effective against grape leaf blight. Mix propiconazole fungicide according to the manufacturer's instructions, usually around 1-2 tablespoons per gallon of water. Apply as a foliar spray, ensuring thorough coverage of the grapevines. Repeat application every 14-21 days or as directed on the fungicide label."
+        }
+    ],
+    "Grape___healthy": [
+        {
+            "title": "Practices for Maintaining Healthy Grapevines",
+            "description": "Provide proper training and trellising to ensure good vine canopy management."
+        }
+    ],
+    "Potato___Early_blight": [
+        {
+            "title": "Remedy 1 : Baking Soda Spray",
+            "description": "Mix 1 tablespoon of baking soda with 1 gallon (about 3.8 liters) of water.Add a few drops of liquid soap (to help the solution adhere to the leaves).Spray the solution on the affected potato plants, covering both sides of the leaves."
+        },
+        {
+            "title": "Remedy 2 : Neem Oil Spray",
+            "description": "Mix 1 tablespoon of neem oil with 1 gallon (about 3.8 liters) of water.Add a few drops of liquid soap.Shake well and spray the solution on the affected plants, covering all affected areas."
+        },
+        {
+            "title": "Remedy 3 : Potassium Bicarbonate Spray",
+            "description": "Mix 1 tablespoon of potassium bicarbonate with 1 gallon (about 3.8 liters) of water.Add a few drops of liquid soap.Mix well and spray the solution on the potato plants, ensuring thorough coverage."
+        }
+    ],
+    "Potato___Late_blight": [
+        {
+            "title": "Remedy 1 : Copper Fungicide Spray",
+            "description": " Mix copper fungicide according to the manufacturer's instructions (usually about 1-2 tablespoons per gallon of water). Ensure thorough mixing.Spray the solution evenly over the foliage of the potato plants, covering all surfaces. Apply every 7-10 days or as recommended by the manufacturer."
+        },
+        {
+            "title": "Remedy 2 : Chlorothalonil Spray",
+            "description": "Mix chlorothalonil fungicide according to the manufacturer's instructions (typically 2-4 tablespoons per gallon of water).Ensure thorough mixing.Apply the solution to the potato plants, covering all affected areas.Reapply every 7-10 days or as recommended by the manufacturer."
+        },
+        {
+            "title": "Remedy 3 : Phosphorous Acid Spray",
+            "description": "Mix phosphorous acid fungicide according to the manufacturer's instructions (typically 1-2 tablespoons per gallon of water).Ensure thorough mixing.Apply the solution to the potato plants, covering both sides of the leaves and stems.Reapply every 7-10 days or as recommended by the manufacturer."
+        }
+    ],
+    "Potato___healthy": [
+        {
+            "title": "Practices for Maintaining Healthy Potato Plants",
+            "description": "Plant certified disease-free seed potatoes to reduce the risk of introducing pathogens."
+        }
+    ],
+    "Strawberry___Leaf_scorch": [
+        {
+            "title": "Remedy 1 : Baking Soda Solution",
+            "description": "Mix 1 teaspoon of baking soda with 1 quart of water. Spray the solution onto the affected strawberry leaves, ensuring thorough coverage.Apply this solution every 7-10 days until symptoms improve."
+        },
+        {
+            "title": "Remedy 2 : Neem Oil Spray ",
+            "description": " Dilute 1-2 tablespoons of neem oil in 1 quart of water. Add a few drops of mild dish soap to help the solution adhere to the leaves.Shake well and spray onto the strawberry leaves, targeting both sides of the foliage.Apply every 7-14 days until symptoms subside."
+        },
+        {
+            "title": "Remedy 3 : Hydrogen Peroxide Solution ",
+            "description": "Mix 1 part 3% hydrogen peroxide with 4 parts water.Spray the solution onto the affected leaves, covering them thoroughly.Apply this solution every 5-7 days until improvement is seen."
+        }
+    ],
+    "Strawberry___healthy": [
+        {
+            "title": "Practices for Maintaining Healthy Strawberry Plants",
+            "description": "Remove and destroy infected plant debris to reduce overwintering inoculum."
+        }
+    ],
+    "Tomato___Bacterial_spot": [
+        {
+            "title": "Remedy 1 : Streptomycin spray",
+            "description": "Dissolve 1 tablespoon of streptomycin powder in 1 gallon of water.Spray the solution evenly over the tomato plants, ensuring full coverage.Apply once every 7 to 10 days during the growing season, starting at the first sign of bacterial spot. "
+        },
+        {
+            "title": "Remedy 2 : Bordeaux mixture ",
+            "description": "Mix 4 tablespoons of copper sulfate and 4 tablespoons of hydrated lime in 1 gallon of water.Stir the mixture thoroughly until the ingredients are completely dissolved.Spray the Bordeaux mixture onto the affected tomato plants every 10 to 14 days.Shake the mixture well before each application to ensure even distribution of the components."
+        },
+        {
+            "title": "Remedy 3 : Baking soda spray ",
+            "description": " Mix 1 tablespoon of baking soda with 1 gallon of water.Add a few drops of liquid dish soap to help the solution adhere to the plant surfaces.Stir the mixture until the baking soda is completely dissolved.Spray the solution onto the tomato plants, covering all parts of the plant.Apply every 5 to 7 days, especially during periods of warm, humid weather."
+        }
+    ],
+    "Tomato___Early_blight": [
+        {
+            "title": "Remedy 1 : Copper Fungicide Spray",
+            "description": "Measure out 1 tablespoon (15 mL) of copper fungicide concentrate.Mix it with 1 gallon (3.8 liters) of water.Spray the solution onto the affected tomato plants, ensuring thorough coverage of both sides of the leaves and stems. Apply every 7-10 days or as recommended by the product label."
+        },
+        {
+            "title": "Remedy 2 : Sulfur Spray",
+            "description": " Mix 2 tablespoons (30 mL) of sulfur powder with 1 gallon (3.8 liters) of water.Stir well until the sulfur powder is completely dissolved.Spray the solution onto the tomato plants, covering all parts of the foliage.Repeat the application every 7-14 days, depending on the severity of the early blight."
+        },
+        {
+            "title": "Remedy 3 : Chlorothalonil Fungicide Solution ",
+            "description": "Dilute 2 tablespoons (30 mL) of chlorothalonil fungicide concentrate in 1 gallon (3.8 liters) of water. Mix thoroughly.Apply the solution as a foliar spray, making sure to cover the leaves and stems evenly.Repeat every 7-14 days or according to the product label instructions."
+        }
+    ],
+    "Tomato___Late_blight": [
+        {
+            "title": "Remedy 1 : Baking Soda Solution",
+            "description": "Mix 1 tablespoon of baking soda with 1 gallon (about 3.8 liters) of water.Spray the solution onto the affected tomato plants, ensuring thorough coverage of both sides of the leaves.Repeat the application every 1-2 weeks, especially after rain or heavy dew."
+        },
+        {
+            "title": "Remedy 2 : Hydrogen Peroxide Solution:",
+            "description": " Mix 1 part hydrogen peroxide (3% concentration) with 4 parts water.Spray the solution onto the affected tomato plants, focusing on the areas with signs of late blight.Apply every 5-7 days, or after rainfall."
+        },
+        {
+            "title": "Remedy 3 : Neem Oil Spray",
+            "description": " Mix 2-4 tablespoons of neem oil with 1 gallon of water.Add a few drops of liquid soap (to help the mixture stick to the plants).Shake well and spray the solution onto the tomato plants, covering both sides of the leaves.Apply every 7-14 days, or as needed."
+        }
+    ],
+    "Tomato___healthy": [
+        {
+            "title": "Practices for Maintaining Healthy Tomato Plants",
+            "description": "Stake or cage tomato plants to keep fruits off the ground and reduce disease risk."
+        }
+    ]
+}

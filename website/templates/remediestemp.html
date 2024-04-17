@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Leaf Remedies</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/remediestemp.css') }}">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>
+      <center>Remedies for {{ predicted_plant_name }} {{ predicted_disease_name }}</center>
+    </h1>
+
+    {% for remedy in remedies %}
+    <div class="remedy">
+      <h2>{{ remedy.title }}</h2>
+      <p>{{ remedy.description }}</p>
+    </div>
+    {% endfor %}
+
+  </div>
+</body>
+
+</html>
