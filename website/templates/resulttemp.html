@@ -6,29 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detection Result</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/resulttemp.css') }}">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
     <div class="container">
-        <img id="uploaded-image" src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image"
-            class="uploaded-image">
+        <div class="uploaded-image">
+            <img id="uploaded-image" src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image">
+        </div>
         <div class="info"> <!-- Adjust margin here -->
-            <h1>Plant Health</h1>
+            <h1>Plant Details</h1>
             <p>Predicted Plant Name: {{ predicted_plant_name }}</p>
-            <p>Predicted Disease Name: {{ predicted_disease_name }}</p>
+            <p>Predicted Disease Name: {{ predicted_disease_name }}</p><br>
             <!--             <p>Predicted Class Name: {{ predicted_class_name }}</p>
         
             {% if confidence %}
                 <p>Confidence: {{ confidence }}</p>
             {% endif %} -->
-            {% if predicted_disease_name != "Healthy" %}
+            
             <form
                 action="{{ url_for('show_remedies', disease=predicted_class_name , plantname=predicted_plant_name , diseasename=predicted_disease_name) }}"
                 method="get">
+                {% if predicted_disease_name != "Healthy" %}
                 <button type="submit" class="know-more-btn">View Remedies</button>
+                {% endif %}
+                <a  href="{{ url_for('home') }}" class="know-more-btn home-btn"><i class="fa fa-home"></i></a>
+
             </form>
-            {% endif %}
+            
+
         </div>
     </div>
 </body>

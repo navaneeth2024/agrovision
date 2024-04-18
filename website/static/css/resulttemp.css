@@ -16,7 +16,7 @@ body {
 .container {
     color: #fff;
     max-width: 800px;
-    padding: 100px 50px;
+    padding: 20px 50px 30px 50px;
     background-color: rgba(224, 225, 222, 0.692);
     /* Make container transparent */
     border-radius: 12px;
@@ -35,7 +35,8 @@ body {
     /* Center vertically */
 }
 
-.info{
+
+.info {
     margin-left: 60px;
 }
 
@@ -53,7 +54,7 @@ body {
 
 h1 {
     color: #1b481c;
-    font-size: 48px;
+    font-size: 45px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -66,7 +67,7 @@ p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.uploaded-image {
+.uploaded-image img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -100,4 +101,19 @@ p {
 
 .know-more-btn:hover {
     background-color: #45a049;
+}
+
+.uploaded-image{
+    border-right: 2px solid rgba(3, 54, 20, 0.748);
+}
+
+.home-btn{
+    margin-left: 30%;
+    border-radius: 30%;
+    color: #1b481c;
+    font-size: 25px;
+    background-color: #e0e1df;
+}
+.home-btn:hover{
+    color: white;
 }
