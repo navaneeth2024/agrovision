@@ -9,6 +9,7 @@ plantvillage dataset/
 sms/
 validation/
 webapp/
+website/static/uploads
 website/model/xception_plant_disease_detection(25-02-2024).h5
 website_new/
 webtemp/
