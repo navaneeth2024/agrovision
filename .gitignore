@@ -5,12 +5,8 @@ githubprojects/
 images test/
 models/
 New Plant Diseases Dataset(Augmented)/
-notebooks/
-!notebooks/xception_new copy[02-04-2024].ipynb
 otherfiles/
 plantvillage dataset/
-singlenotebook/
-!singlenotebook/modelcomparison(1).ipynb
 sms/
 validation/
 webapp/
