@@ -40,7 +40,7 @@ def predict_disease(image_path):
 @app.route('/')
 def home():
     return render_template('hometemp.html')
-
+ 
 # Route for uploading image
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():

@@ -1,20 +1,27 @@
 dataset/
 dermoscan/
+frontend/
 githubprojects/
 images test/
 models/
 New Plant Diseases Dataset(Augmented)/
+notebooks/
+!notebooks/xception_new copy[02-04-2024].ipynb
 otherfiles/
 plantvillage dataset/
+singlenotebook/
+!singlenotebook/modelcomparison(1).ipynb
 sms/
 validation/
 webapp/
-website/static/uploads
+website/static/uploads/
 website/model/xception_plant_disease_detection(25-02-2024).h5
 website_new/
+website-agrov/
 webtemp/
 frontend.zip
 New Plant Diseases Dataset.zip
 website_new.zip
 website.zip
 agrovision-main.zip
+website-agrovision.zip

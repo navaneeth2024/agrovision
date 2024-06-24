@@ -15,9 +15,9 @@
         </div>
         <div class="info"> <!-- Adjust margin here -->
             <h1>Plant Details</h1>
-            <p>Predicted Plant Name: {{ predicted_plant_name }}</p>
-            <p>Predicted Disease Name: {{ predicted_disease_name }}</p><br>
-            <!--             <p>Predicted Class Name: {{ predicted_class_name }}</p>
+            <p>Predicted Plant Name: <span>{{ predicted_plant_name }}</span></p>
+            <p>Predicted Disease Name: <span>{{ predicted_disease_name }}</span></p><br>
+            <!-- <p>Predicted Class Name: {{ predicted_class_name }}</p>
         
             {% if confidence %}
                 <p>Confidence: {{ confidence }}</p>
@@ -27,7 +27,9 @@
                 action="{{ url_for('show_remedies', disease=predicted_class_name , plantname=predicted_plant_name , diseasename=predicted_disease_name) }}"
                 method="get">
                 {% if predicted_disease_name != "Healthy" %}
-                <button type="submit" class="know-more-btn">View Remedies</button>
+                    <button type="submit" class="know-more-btn">View Remedies</button>
+                {% else %}
+                    <p class="healthy-message">No remedies needed !</p>
                 {% endif %}
                 <a  href="{{ url_for('home') }}" class="know-more-btn home-btn"><i class="fa fa-home"></i></a>
 
