@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 body {
     margin: 0;
     background-color: #fbf9ef;
-    font-family: Arial, sans-serif;
-    background-image: url("../images/bgi1.jpg");
+    font-family: 'Poppins', sans-serif; /* Changed font-family to Poppins */
+    background-image: url("../images/h26.jpg");
     background-size: cover;
     overflow: hidden;
     position: relative;
 }
-
 .navbar {
     background-color: #eeefe7;
     overflow: hidden;
-    background-image: url("../images/bgi1.jpg");
+    background-image: url("../images/h26.jpg");
+
     /* Same background image as body */
     background-size: cover;
 }
@@ -19,11 +20,11 @@ body {
 .navbar h2 {
     float: left;
     margin: 0;
-    font-weight: lighter;
+    font-size: 2.5em;
     padding: 10px;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    padding-left: 640px;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%);
 }
 
 .navbar ul {
@@ -46,13 +47,18 @@ body {
 }
 
 .header-container {
-    position: relative;
-    text-align: right;
+    /*position: relative;
+    text-align: left;
     /* Align the header to the right */
-    padding: 200px 20px;
+    /*padding: 150px 20px;
     /* Adjust padding to add space from the right side */
-    box-sizing: border-box;
+    /*box-sizing: border-box;
     /* Ensure padding is included in the width */
+    display: flex;
+    flex-direction: column;
+    align-items: start ;
+    margin-left: 5%;
+    margin-top: 10%;
 }
 
 .header {
@@ -60,17 +66,22 @@ body {
 }
 
 .header h1 {
-    font-size: 40px;
+    font-size: 3.5em;
+    color: #f0f0f0;
+    font-weight: 700;
 }
-
+.header h2 {
+    font-size: 35px;
+    color: #f0f0f0;
+}
 .header p {
     font-size: 18px;
-    color: #777;
+    color: #3f624a;
 }
 
 .button {
     display: inline-block;
-    background-color: #43611e;
+    background-color: #516834;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -83,7 +94,7 @@ body {
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #95890f;
 }
 
 @keyframes jump {
@@ -101,4 +112,7 @@ body {
         transform: translateY(0);
         /* Return to original position */
     }
+}
+span{
+    color: #1f4b3fcb;
 }

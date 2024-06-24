@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plant Leaf Remedies</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/remediestemp.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
     <h1>
       <center>Remedies for {{ predicted_plant_name }} {{ predicted_disease_name }}</center>
     </h1>
-
+    
     {% for remedy in remedies %}
     <div class="remedy">
       <h2>{{ remedy.title }}</h2>
@@ -23,6 +24,7 @@
     {% endfor %}
 
   </div>
+  <center><button class="remedyhome" onclick="location.href='{{ url_for('home') }}'"><h3> &nbsp;<i class="fa fa-home"></i> &nbsp;Home &nbsp; &nbsp;</h3></button></center><br>
 </body>
 
 </html>

@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     height: 100vh;
     background-image: url("../images/hbg444.jpg");
     /* Change background image URL */
@@ -16,7 +16,7 @@ body {
 .container {
     color: #fff;
     max-width: 800px;
-    padding: 100px 50px;
+    padding: 20px 50px 30px 50px;
     background-color: rgba(224, 225, 222, 0.692);
     /* Make container transparent */
     border-radius: 12px;
@@ -35,7 +35,8 @@ body {
     /* Center vertically */
 }
 
-.info{
+
+.info {
     margin-left: 60px;
 }
 
@@ -53,20 +54,24 @@ body {
 
 h1 {
     color: #1b481c;
-    font-size: 48px;
+    font-size: 45px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 p {
-    color: #61a963;
+    color: black;
+
     font-size: 22px;
     margin-bottom: 10px;
     /* Adjust margin */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+p span{
+    font-weight: bold;
+}
 
-.uploaded-image {
+.uploaded-image img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -85,7 +90,7 @@ p {
 }
 
 .know-more-btn {
-    background-color: #4CAF50;
+    background-color: #224f16;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -100,4 +105,24 @@ p {
 
 .know-more-btn:hover {
     background-color: #45a049;
+}
+
+.uploaded-image{
+    border-right: 2px solid rgba(3, 54, 20, 0.748);
+}
+
+.home-btn{
+    margin-left: 30%;
+    border-radius: 30%;
+    color: #1b481c;
+    font-size: 25px;
+    background-color: #e0e1df;
+}
+.home-btn:hover{
+    color: white;
+}
+.healthy-message {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }

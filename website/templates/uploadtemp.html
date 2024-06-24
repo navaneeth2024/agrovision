@@ -9,18 +9,19 @@
 </head>
 <body> 
     <div class="container">
-        <h1>AGROVISION</h1>
-        <P>Spot and Stop Plant Diseases Easily</P>
+        <h1>UPLOAD IMAGE</h1>
+        <hr>
         <div id="uploaded-image-container">
             <img id="uploaded-image" src="../static/images/upload2.jpg" alt="Default Image">
             <div id="file-name" class="file-name">File Name: Default Image</div>
         </div>
         <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
-            <label for="image" class="upload-btn">Upload Image</label>
+            <label for="image" class="upload-btn">Select Image</label>
             <input class="inputimg" type="file" name="file" id="image" accept="image/*" required  onchange="previewImage(event)">
             <button class="detect-btn" type="submit">Detect</button> 
         </form>
     </div>
+
  
     <script>
         function previewImage(event) {
